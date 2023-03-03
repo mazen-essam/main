@@ -1,0 +1,10 @@
+.container {
+   width: 60%;
+   margin: auto;
+   margin-top: 200px;
+}
+
+body {
+   font-size: 30px;
+   text-align: center;
+}

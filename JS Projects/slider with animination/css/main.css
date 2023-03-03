@@ -1,0 +1,64 @@
+/* .item{
+    width: 100px;
+    height: 100px;
+    background-color: #000;
+    margin: 15px 0;
+}
+.item1 {
+    background-color: #09c;
+    border-radius: 50%;
+    margin: 15px auto;
+}
+
+
+.jj{
+    background-color: rgb(red, green, blue);
+} */
+/* html{
+    cursor: none;
+}
+
+body {
+    background-color: #000;
+}
+img {
+    position: absolute;
+} */
+
+.card {
+   margin: 20px 0;
+   text-align: center;
+}
+.card img {
+   cursor: pointer;
+}
+#lightBoxContainer {
+   width: 100%;
+   height: 100%;
+   position: fixed;
+   inset: 0;
+   background-color: rgba(0, 0, 0, 0.464);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   display: none;
+}
+#lightBoxItem {
+   width: 600px;
+   height: 400px;
+   background-image: url(../img/img4.jpg);
+   background-size: cover;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   position: relative;
+}
+#lightBoxItem i {
+   font-size: 30px;
+   cursor: pointer;
+}
+#lightBoxItem #close {
+   position: absolute;
+   top: 20px;
+   right: 20px;
+}
